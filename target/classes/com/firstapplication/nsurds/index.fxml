@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="859.0" prefWidth="1448.0" style="-fx-background-image: url(&quot;file:///Users/mac/IdeaProjects/NSURDS/src/main/java/com/firstapplication/nsurds/img/fx_bg_5.jpeg&quot;); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.firstapplication.nsurds.IndexController">
+    <children>
+        <Button fx:id="btnLogout" layoutX="1299.0" layoutY="30.0" mnemonicParsing="false" onAction="#logout" opacity="0.6" prefHeight="45.0" prefWidth="100.0" style="-fx-background-color: #e44a4a;" text="LOGOUT" AnchorPane.bottomAnchor="784.0" AnchorPane.leftAnchor="1299.0" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="30.0">
+            <font>
+                <Font name="Tamil MN" size="13.0" />
+            </font>
+        </Button>
+        <AnchorPane layoutX="92.0" layoutY="108.0" prefHeight="684.0" prefWidth="1270.0" style="-fx-background-color: #61efa994;" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="92.0" AnchorPane.rightAnchor="86.0" AnchorPane.topAnchor="108.0">
+            <children>
+                <ScrollPane layoutX="70.0" layoutY="86.0" prefHeight="520.0" prefWidth="503.0" AnchorPane.bottomAnchor="78.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="697.0" AnchorPane.topAnchor="86.0">
+                    <content>
+                        <Text fill="#536800" strokeType="OUTSIDE" strokeWidth="0.0" text="It is imperative that all students will act and behave according to the Code of Conduct of NSU.  Our university aims and strives to promote and nurture a culture that is based on values emphasizing tolerance, mutual respect and peaceful coexistence of all members of the university community irrespective of gender, race, religion, class, caste, status or position.  NSU does not tolerate any acts of violence such as beating, punching, kicking, unwanted physical contact, threatening, bullying and the like by any member of the university community.  Moreover, any form of sexual harassment (physical, verbal, or any other kind) would lead to prosecution by the NSU Authority.  NSU campus is absolutely smoking free.  Smoking is prohibited anywhere inside the boundary of the university. Carrying cigarettes, lighters or any other means to produce fire is also prohibited. Students who are found smoking inside the premises may be imposed monetary fine. If a student commits an offense twice, the case will be referred to the disciplinary committee and the student may be expelled from the university.  If a student is found guilty of abusing substances such as alcohol, marijuana, cannabis (Gaja), etc. inside the campus, s/he may be expelled from the university.Forgery, alteration, cheating, plagiarism or any kind of academic dishonesty are punishable.  Misuse of NSU ID by any means may result in monetary fine and/or expulsion from the university.  Students should wear decent dresses.  Wearing sandals, collarless t-shirts, shorts, three-quarters or sleeveless dresses will be considered indecent for both male and female students.  If you are seen wearing such dresses inside the campus you will be sent home and warned by the Proctor’s Office.  Students should not carry any firearms, explosives, knives or sharp weapons that may be used to hurt fellow students and/or cause damage to NSU properties.   Disobedience and indecent behavior with NSU faculty members, administrators, and employees may result in disciplinary action.  Finally, any kind of romantic behavior, close contact with boys and girls (kissing, hugging, affectionate touching etc.), nudity display, and adultery in the campus will be strictly prohibited in the campus.  Remember one thing:  if you do anything that tarnishes image of the university, then you don’t belong here.  Good luck on your journey at NSU. " textAlignment="JUSTIFY" wrappingWidth="464.22572326660156">
+                            <font>
+                                <Font name="Chalkboard" size="20.0" />
+                            </font>
+                        </Text>
+                    </content>
+                </ScrollPane>
+                <Text fill="#8d0000" layoutX="199.0" layoutY="54.763671875" strokeType="OUTSIDE" strokeWidth="0.0" text="CODE of CONDUCT" AnchorPane.bottomAnchor="622.90625" AnchorPane.leftAnchor="199.0" AnchorPane.rightAnchor="853.2890625" AnchorPane.topAnchor="28.5">
+                    <font>
+                        <Font name="DIN Alternate Bold" size="28.0" />
+                    </font>
+                </Text>
+                <AnchorPane layoutX="659.0" layoutY="229.0" prefHeight="191.0" prefWidth="256.0" style="-fx-background-color: #9196ea78;" AnchorPane.bottomAnchor="264.0" AnchorPane.leftAnchor="659.0" AnchorPane.rightAnchor="355.0" AnchorPane.topAnchor="229.0">
+                    <children>
+                        <Text fill="#1a14ff" layoutX="82.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FACULTY ADVISOR :" wrappingWidth="147.64247341042642" AnchorPane.bottomAnchor="131.74600219726562" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="26.35752658957358" AnchorPane.topAnchor="30.790000915527344">
+                            <font>
+                                <Font name="MuktaMahee SemiBold" size="17.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#ebff0e" layoutX="102.0" layoutY="89.20999908447266" strokeType="OUTSIDE" strokeWidth="0.0" text="FACULTY NAME :" wrappingWidth="126.99830837136392" AnchorPane.bottomAnchor="92.74600219726562" AnchorPane.leftAnchor="102.0" AnchorPane.rightAnchor="27.00169162863608" AnchorPane.topAnchor="70.0">
+                            <font>
+                                <Font name="MuktaMahee SemiBold" size="17.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#1198ff" layoutX="173.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL :" wrappingWidth="66.4595107639999" AnchorPane.bottomAnchor="36.746002197265625" AnchorPane.leftAnchor="173.0" AnchorPane.rightAnchor="16.5404892360001" AnchorPane.topAnchor="125.79000091552734">
+                            <font>
+                                <Font name="MuktaMahee SemiBold" size="17.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </AnchorPane>
+                <Text layoutX="938.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SZZ (Room: SAC941 )" AnchorPane.bottomAnchor="402.099609375" AnchorPane.leftAnchor="938.0" AnchorPane.rightAnchor="156.447265625" AnchorPane.topAnchor="261.0986328125">
+                    <font>
+                        <Font name="Trebuchet MS Bold" size="18.0" />
+                    </font>
+                </Text>
+                <Text layoutX="938.0" layoutY="321.9013671875" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. M Shazzad Hosain" AnchorPane.bottomAnchor="358.099609375" AnchorPane.leftAnchor="938.0" AnchorPane.rightAnchor="152.10546875" AnchorPane.topAnchor="305.0">
+                    <font>
+                        <Font name="Trebuchet MS Bold" size="18.0" />
+                    </font>
+                </Text>
+                <Text layoutX="938.0" layoutY="376.9013671875" strokeType="OUTSIDE" strokeWidth="0.0" text="shazzad.hosain@northsouth.edu" AnchorPane.bottomAnchor="303.099609375" AnchorPane.leftAnchor="938.0" AnchorPane.rightAnchor="59.5302734375" AnchorPane.topAnchor="360.0">
+                    <font>
+                        <Font name="Trebuchet MS Bold" size="18.0" />
+                    </font>
+                </Text>
+                <ImageView fitHeight="69.0" fitWidth="358.0" layoutX="741.0" layoutY="51.0">
+                    <image>
+                        <Image url="@../IdeaProjects/NSURDS/src/main/java/com/firstapplication/nsurds/img/fx_logo_01.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <Text fill="#56ff38" layoutX="1091.0" layoutY="833.568359375" strokeType="OUTSIDE" strokeWidth="0.0" text="DEVELOPED and MAINTAINED by : BARKOTULLAH OPU" AnchorPane.bottomAnchor="22.689453125" AnchorPane.leftAnchor="1091.0" AnchorPane.rightAnchor="43.12109375" AnchorPane.topAnchor="821.0" />
+        <AnchorPane layoutX="48.0" layoutY="21.0" prefHeight="70.0" prefWidth="491.0">
+            <children>
+                <Button onAction="#goToPayments" layoutX="29.0" layoutY="15.0" mnemonicParsing="false" style="-fx-padding: 10; -fx-background-color: #61efa994;" text="PAYMENTS">
+                    <font>
+                        <Font name="Trebuchet MS" size="13.0" />
+                    </font>
+                </Button>
+                <Button onAction="#goToCourses" layoutX="153.0" layoutY="16.0" mnemonicParsing="false" style="-fx-padding: 10; -fx-background-color: #61efa994;" text="COURSES">
+                    <font>
+                        <Font name="Trebuchet MS" size="13.0" />
+                    </font>
+                </Button>
+                <Button onAction="#goToAdvising" layoutX="271.0" layoutY="15.0" mnemonicParsing="false" style="-fx-padding: 10; -fx-background-color: #61efa994;" text="ADVISING">
+                    <font>
+                        <Font name="Trebuchet MS Bold" size="13.0" />
+                    </font>
+                </Button>
+                <Button onAction="#goToWarnings" layoutX="379.0" layoutY="16.0" mnemonicParsing="false" style="-fx-padding: 10; -fx-background-color: #61efa994;" text="WARNINGS">
+                    <font>
+                        <Font name="Trebuchet MS Bold" size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

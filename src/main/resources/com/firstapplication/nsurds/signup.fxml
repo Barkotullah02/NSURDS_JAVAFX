@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="863.0" prefWidth="1165.0" style="-fx-background-color: linear-gradient(#ffb4a2, #e5989b, #b5838d); -fx-border-radius: 100; -fx-background-image: url(&quot;file:///Users/mac/Documents/fx_bg_4.jpeg&quot;); -fx-background-size: cover;" styleClass="pla" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.firstapplication.nsurds.SignupController">
+    <children>
+        <AnchorPane layoutX="388.0" layoutY="32.0" prefHeight="765.0" prefWidth="638.0" style="-fx-background-color: #0000009c;">
+            <children>
+                <BorderPane prefHeight="51.0" prefWidth="563.0" />
+                <BorderPane layoutX="36.0" layoutY="362.0">
+                    <center>
+                        <HBox prefHeight="49.0" prefWidth="535.0" style="-fx-alignment: center; -fx-padding: 5;">
+                            <children>
+                                <Text fill="#7affc7" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25; -fx-font-weight: bold;" text="NEW PASSWORD" wrappingWidth="196.91595458984375">
+                                    <font>
+                                        <Font size="22.0" />
+                                    </font>
+                                </Text>
+                                <TextArea fx:id="password" minWidth="-Infinity" prefHeight="39.0" prefWidth="342.0" promptText="Enter new password" style="-fx-background-color: gray; -fx-background-radius: 10;" />
+                            </children>
+                        </HBox>
+                    </center>
+                </BorderPane>
+                <HBox layoutX="34.0" layoutY="448.0" prefHeight="42.0" prefWidth="553.0" style="-fx-alignment: center; -fx-padding: 5;">
+                    <children>
+                        <Text fill="#26c8d3" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25; -fx-font-weight: bold;" text="NEW PASSWORD" wrappingWidth="195.64541625976562" />
+                        <TextArea fx:id="department" prefHeight="41.0" prefWidth="339.0" promptText="Re-Enter your new password" style="-fx-background-color: gray; -fx-background-radius: 10;" />
+                    </children>
+                </HBox>
+                <Button fx:id="btnsignup" contentDisplay="CENTER" defaultButton="true" graphicTextGap="10.0" layoutX="392.0" layoutY="527.0" mnemonicParsing="false" onAction="#storeData" prefHeight="51.0" prefWidth="186.0" style="-fx-background-color: lightcyan; -fx-label-padding: 5; -fx-cursor: pointer;" text="RESET PASSWORD" textAlignment="JUSTIFY" textOverrun="LEADING_ELLIPSIS">
+                    <font>
+                        <Font name="Noto Sans Kannada ExtraBold" size="16.0" />
+                    </font>
+                </Button>
+                <HBox layoutX="55.0" layoutY="198.0" prefHeight="48.0" prefWidth="533.0" style="-fx-alignment: center; -fx-padding: 5;">
+                    <children>
+                        <Text fill="#52d794" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25; -fx-font-weight: bold;" text="DATE of BIRTH" wrappingWidth="166.42529296875" />
+                        <TextArea fx:id="fullname" minWidth="-Infinity" prefHeight="59.0" prefWidth="341.0" promptText="Enter your date of birthh for verification" style="-fx-background-color: gray; -fx-background-radius: 10;" styleClass="-fx" />
+                    </children>
+                </HBox>
+                <HBox layoutX="114.0" layoutY="626.0" prefHeight="53.0" prefWidth="467.0" style="-fx-alignment: center;">
+                    <children>
+                        <Text fill="#fffd95" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold; -fx-font-size: 18;" text="Already have an account?" wrappingWidth="253.42779541015625" />
+                        <Button fx:id="loginpage" defaultButton="true" mnemonicParsing="false" onAction="#goToLogin" style="-fx-label-padding: 4; -fx-background-color: coral; -fx-text-fill: white;" text="GO TO LOGIN" textFill="#535734">
+                            <font>
+                                <Font name="System Bold" size="13.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox layoutX="56.0" layoutY="269.0" prefHeight="48.0" prefWidth="533.0" style="-fx-alignment: center; -fx-padding: 5;">
+                    <children>
+                        <Text fill="#70b6ff" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 25; -fx-font-weight: bold;" text="USERNAME" wrappingWidth="166.42529296875" />
+                        <TextArea fx:id="username" prefHeight="59.0" prefWidth="341.0" promptText="Enter your username of the forgotten account" style="-fx-background-color: gray; -fx-background-radius: 10;" />
+                    </children>
+                </HBox>
+                <Text fill="#c2d726" layoutX="95.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: sans-serif; -fx-font-weight: bold; -fx-font-size: 30;" text="NORTH SOUTH UNIVERSITY">
+                    <font>
+                        <Font size="46.0" />
+                    </font>
+                </Text>
+                <Text fx:id="txtStudentportal" fill="#53bf53" layoutX="211.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: monospace; -fx-font-size: 20;" text="STUDENT PORTAL">
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
